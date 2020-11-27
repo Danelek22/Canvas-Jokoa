@@ -1,0 +1,11 @@
+body { background:url(fondoNave.gif); background-attachment: fixed; background-repeat: no-repeat; background-size: cover; }
+
+.container {
+  width:800px;
+  margin:0 auto;
+}
+
+#my_canvas{ 
+  background:#000000; 
+  border:#000 1px solid; 
+}
