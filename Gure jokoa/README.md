@@ -1,9 +1,11 @@
-# SPACESHIP-VIDEO-GAME
+#Shoot 'em up jokoa
 
-This is a spaceship video game built in Javascript and Canvas.
+Joko hau html5, canvas, css eta JavaScript erabiltzen egin da
 
-**INTRUCTIONS:**
+Jolasteko era
 
-1.- Use up, down, left and right arrows from keyboard to move spaceship or click on left and right buttons
+1- Mugitzeko ezker eta eskuin geziak
+2- Su egiteko space tekla 
+3- Berriro jolasteko P tekla
 
-2.- Shooting could be done by either pressing the "space button" from keyboard or by clicking on the "Fire Missile" button.
+Disfrutatu
