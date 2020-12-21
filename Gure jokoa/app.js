@@ -124,6 +124,7 @@ function CanvasHasieratu(){
             }
         }
         // balak jo duen begiratu (hitbox)
+	    var kont = 0;
         this.hitDetect = function (m, mi) {
             console.log('crush');
             for (var i = 0; i < enemies.length; i++) {
@@ -132,11 +133,23 @@ function CanvasHasieratu(){
                    m.x <= e.x+e.w && 
                    m.y >= e.y && 
                    m.y <= e.y+e.h){
+			kont +=10;
                     this.misiles.splice(this.misiles[mi],1); // bala borratu
                     enemies.splice(i, 1); // etsaia borratu
                 }
             }
+		   var score = kont;
+function drawScore() {
+    ctx.font = "16px Arial";
+    ctx.fillStyle = "#0095DD";
+    ctx.fillText("Score: ",score, 8, 20);
+}
         }
+	 
+	    
+	    
+	    
+	    
         // Etsaiak behera ailegatu edo ontzia ukitu duen begiratu
         this.hitDetectLowerLevel = function(enemy){
 			// Etsaien posizioa 550 baino gehiago bada bako limitearekin tope egin du
